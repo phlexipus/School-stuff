@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2DBEE;
+    min-height: 15vh;
+ }
+
+ .logo{
+    color: rgb(136, 47, 115);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 27px;
+
+}
+ 
+ul li{
+    list-style-type: none;
+    
+}
+
+ul li a {
+    color: rgb(136, 47, 115);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    color: rgb(72, 34, 134);
+    opacity: 0.8;
+
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    
+}
